@@ -2,7 +2,7 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://github.com/danakim1019/NewRo # Full URL
-    image: "NewRo/NewRo_Title.PNG" # path: assets/project/
+    image: "NewRo/NewRo_Title.png" # path: assets/project/
     date: 06/2020 &ndash; Developing
     title: NewRo
     summary: C++, OpenGL, ImGUI, Engine
