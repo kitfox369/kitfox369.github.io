@@ -1,0 +1,64 @@
+# Site Settings
+baseurl: ""
+url : "https://danakim1019.github.io"
+
+# Blog Settings
+theme_settings :
+  title : Dana Kim
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/danakim.jpg
+    username : GaHyeon Kim
+    description : 
+    experience :
+      - start : 2014-03-01
+        end : 2018-02-28
+        experience : Keimyung University, Banchelor
+      - start : 2018-08-01
+        end : 2019-02-28
+        experience : nGarden, Unity developer
+      - start : 2019-03-01
+        end : 2021-08-31
+        experience : Keimyung University, Master
+      - start : 2022-09-01
+        end : 2023-03-31
+        experience : YoungNam University, MetaSupportCenter
+    skills : 
+      - skill : C++
+        value : 85  # Percent value
+      - skill : Unity3D
+        value : 85  # Percent value
+      - skill : OpenGL
+        value : 85  # Percent value
+      - skill : OpenCV
+        value : 50  # Percent value
+        
+  # Icons
+  icons :
+    email: gh87913711@gmail.com # Full email address, e.g. "sample@google.com"
+    linkedin:  # Full URL 
+    github: danakim1019
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter:
+    youtube:
+    facebook:
+    instagram:
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+bootstrap:
+  assets: true

@@ -1,0 +1,124 @@
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://github.com/danakim1019/NewRo # Full URL
+    image: "NewRo/NewRo_Title.PNG" # path: assets/project/
+    date: 06/2020 &ndash; Developing
+    title: NewRo
+    summary: C++, OpenGL, ImGUI, Engine
+    description: OpenGL 기반 실시간 3D 엔진
+    contents:
+
+
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://github.com/danakim1019/CoR-SketchAR # Full URL
+    image: "ARView.PNG" # path: assets/project/
+    date: 06/2020 &ndash; 08/2022
+    title: CoR-SketchAR
+    summary: Unity3D, OpenCV, RVO2
+    description: 모양과 색상 인식을 통한 군중 시뮬레이션 환경 제작 툴 
+    contents:
+        - title: 1. BeamProject View
+          image: BeamProjectImplementation.PNG
+          description: <li>Top View of AR Crowd Simulation</li>
+            <li>Some Crowds walk along the path</li>
+        - title: 2. Sorting the Path
+          image: DirectionSetting.png
+          description: <li>Sorting crowd's path</li>
+        - title: 3. RVO Algorithm
+          image: ORCA.png
+          description: <li>Use RVO Algorithm in Crowd Simulation</li> 
+
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: "RVOSimulation/RVO4Unit.gif" # path: assets/project/
+    date: 03/2019 &ndash; 12/2019
+    title: RVO Simulation
+    summary: C++, OpenGL, RVO2
+    description: 컴퓨터 기반 RVO2 라이브러리를 이용한 실시간 군중 시뮬레이션 제작
+    contents:
+        - title: 상세 설명
+          image: RVOSimulation/RVOObstSet.gif
+          description: 컴퓨터 기반 RVO를 이용한 실시간 군중 시뮬레이션입니다.<br>사용자는 마우스를 이용하여 시작 지점 및 도착 지점 및 방해물을 설정할 수 있습니다.<br>방해물은 반시계방향으로 다각형의 꼭짓점을 찍어서 결정합니다.
+        - title: 방해물 설치
+          image: RVOSimulation/RVOObst1Unit.gif
+          description: Obstacle(방해물) 설정 방법입니다. 반시계 방향으로 꼭지점을 선택한 후 선택완료를 누를 시 방해물이 설치됩니다.
+        - title: 방해물 존재하는 시뮬레이션
+          image: RVOSimulation/RVOCrowdSimulation.gif
+          description: <li> 44개의 객체를 이용하여 방해물이 있는 시뮬레이션을 진행했을 때</li> 
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: "RoadOfSushi/RoadOfSushi.png" # path: assets/project/
+    date: 05/2017 &ndash; 06/2017
+    title: 초밥의길
+    summary: Unity3D, C#, Vive
+    description: Unity와 Vive 컨트롤러를 이용하여 초밥을 제작하고 던져서 손님의 입에 넣어주는 VR 초밥 제작
+    contents:
+        - title: 맡은 부분
+          image: RoadOfSushi/RoadOfSushi2.png
+          description: 게임 내에서 등장하는 손님 로직을 제작하였습니다.<br>손님들은 남아있는 자리 중 가장 앞자리를 선택해서 입구부터 자리까지 이동하고 자리에 앉습니다.<br>자리에 앉은 후에는 플레이어를 바라보도록 제작하였습니다.<br>초밥별 난이도는 존재하지 않아서 초밥은 3종류 중 랜덤으로 선택되도록 제작하였습니다.
+        - title: 인게임 화면
+          image: RoadOfSushi/RoadOfSushi3.png
+          description: <li>게임 내에서 초밥 만드는 모습</li>
+        - title: 인게임 화면
+          image: RoadOfSushi/RoadOfSushi4.png
+          description: <li>저녁 시간에 재료를 손질하는 모습</li> 
+        - title: 인게임 화면
+          image: RoadOfSushi/RoadOfSushi5.png
+          description: <li>손질한 재료를 재고에 채워놓는 모습</li> 
+        - title: 시연 모습
+          image: RoadOfSushi/RoadOfSushi6.jpg
+          description: <li>대구 ICT 융합 엑스포 전시</li> 
+
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: "GPGP/GPGP.png" # path: assets/project/
+    date: 12/2017 &ndash; 01/2018
+    title: 곰팡곰팡
+    summary: Unity3D, C#, Vive
+    description: Unity와 Vive를 이용하여 만든 VR 청소 게임 제작
+    contents:
+        - title: 상세 설명
+          image:
+          description: Unity와 Vive를 이용하여 만든 VR 청소 게임입니다.<br>정해진 시간안에 바퀴벌레 및 어질러진 쓰레기 및 액체들을 4가지 청소도구를 이용하여 청소하는 방식의 게임입니다.
+        - title: 맡은 부분
+          image: GPGP/GPGP2.PNG
+          description: 개발에서 컨트롤러로 이동하는 방식을 Plugin을 통해 제작하였고 청소를 방해하는 강아지 및 바퀴벌레 AI를 구현하였습니다.
+        - title: 인게임 화면
+          image: GPGP/GPGP3.PNG
+          description: 게임 내에서 밀대를 가지고 청소하는 모습입니다.
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    image: "TripleGem/TripleGem.png" # path: assets/project/
+    date: 09/2018 &ndash; 02/2019
+    title: 트리플젬
+    summary: Unity3D, C#
+    description: 기존 TripleGem 게임에서 추가 컨텐츠 개발
+    contents:
+        - title: 맡은 부분
+          image: TripleGem/TripleGem2.jpg
+          description: (주) 엔가든에서 인턴기간동안 xml을 이용하여 기존 퍼즐게임에서 스테이지, 아이템 및 튜토리얼 추가 제작 하였습니다.
+        - title: 튜토리얼
+          image: TripleGem/TripleGem3.jpg
+          description:  트리플젬의 튜토리얼 진행화면입니다.
+        - title: 스테이지
+          image: TripleGem/TripleGem4.jpg
+          description: 트리플젬의 스테이지 선택 화면입니다.<br>클리어 상태 유무에 따라서 Lock 기능을 구현하였습니다.
+        - title: 아이템
+          image: TripleGem/TripleGem5.jpg
+          description: 아이템을 착용할 수 있는 창입니다. 획득 유무에 따라서 Lock 기능을 구현하였습니다.<br>장착시 스테이지 확률에 영향을 주는 Passive 아이템이나 쿨타임이 있는 Active 아이템을 제작하였습니다.
